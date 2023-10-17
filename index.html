@@ -1,0 +1,716 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>PODA Game Day Grill</title>
+    
+    <!-- Mobile Specific Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!--==============================
+	   Google Web Fonts
+	============================== -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cookie&family=Roboto:wght@300;400;500;700&family=Rufina:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- Favicons - Place favicon.ico in the root directory -->
+    <link rel="icon" type="image/ico" href="assets/img/favicons/favicon.ico">
+    <link rel="manifest" href="assets/img/favicons/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="assets/img/favicons/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <!--==============================
+	    All CSS File
+	============================== -->
+    <!-- Bootstrap -->
+    <!-- <link rel="stylesheet" href="assets/css/app.min.css"> -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- Flat Icon -->
+    <link rel="stylesheet" href="assets/css/flaticon.min.css">
+    <!-- Fontawesome Icon -->
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+    <!-- Date Picker -->
+    <link rel="stylesheet" href="assets/css/jquery.datetimepicker.min.css">
+    <!-- Layer Slider -->
+    <link rel="stylesheet" href="assets/css/layerslider.min.css">
+    <!-- Magnific Popup -->
+    <link rel="stylesheet" href="assets/css/magnific-popup.min.css">
+    <!-- Nice Select -->
+    <link rel="stylesheet" href="assets/css/nice-select.min.css">
+    <!-- Slick Slider -->
+    <link rel="stylesheet" href="assets/css/slick.min.css">
+    <!-- Theme Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Theme Color CSS -->
+    <link rel="stylesheet" href="assets/css/theme-color1.css">
+    <link rel="stylesheet" id="themeColor" href="#">
+
+</head>
+
+<body>
+
+
+    <!--[if lte IE 9]>
+    	<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+  <![endif]-->
+
+
+
+    <!--********************************
+   		Code Start From Here 
+	******************************** -->
+
+
+
+
+
+    <!--==============================
+     Preloader
+  ==============================-->
+    <div class="preloader  ">
+        <div class="preloader-inner">
+            <div class="loader-logo">
+                <img src="assets/img/logo.png" alt="Loader Image">
+            </div>
+            <div class="loader-wrap pt-4">
+                <span class="loader"></span>
+            </div>
+        </div>
+    </div>
+    <!--==============================
+    Popup Search Box
+    ============================== -->
+    <div class="popup-search-box d-none d-lg-block  ">
+        <button class="searchClose border-theme text-theme"><i class="fal fa-times"></i></button>
+        <form action="#">
+            <input type="text" class="border-theme" placeholder="What are you looking for">
+            <button type="submit"><i class="fal fa-search"></i></button>
+        </form>
+    </div>
+    <!--========================
+    Sticky Header
+========================-->
+    <div class="sticky-header-wrap sticky-header py-1 py-sm-2 py-lg-1">
+        <div class="container position-relative">
+            <div class="row align-items-center">
+                <div class="col-5 col-md-3">
+                    <div class="logo">
+                        <a href="index.html"><img src="assets/img/logo.png" alt="logo"></a>
+                    </div>
+                </div>
+                <div class="col-7 col-md-9 text-right  position-static">
+                    <nav class="main-menu menu-sticky1 d-none d-lg-block link-inherit mobile-menu-active">
+                        <ul>
+                            <li class="sub-menu">
+                                <a href="index.html">Home</a>
+                            </li>
+                            <li class="sub-menu">
+                                <a href="about.html">About</a>
+                            </li>
+                            <li class="sub-menu">
+                                <a href="menu.html">Menu</a>
+                            </li>
+                            <li class="sub-menu">
+                                <a href="reservation.html">Reservation</a>
+                            </li>
+                            <li class="sub-menu">
+                                <a href="contact.html">Contact Us</a>
+                            </li>
+                            <li class="sub-menu">
+                                <a href="cart.html">Cart</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <button class="vs-menu-toggle text-theme border-theme d-inline-block d-lg-none"><i class="far fa-bars"></i></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--==============================
+    Mobile Menu
+  ============================== -->
+    <div class="vs-menu-wrapper">
+        <div class="vs-menu-area">
+            <button class="vs-menu-toggle text-theme"><i class="fal fa-times"></i></button>
+            <div class="mobile-logo">
+                <a href="index.html"><img src="assets/img/logo.png" alt="logo"></a>
+            </div>
+            <div class="vs-mobile-menu link-inherit"></div><!-- Menu Will Append With Javascript -->
+        </div>
+    </div>
+    <!--==============================
+        Header Area
+    ==============================-->
+    <header class="header-wrapper header-layout1 position-absolute pt-lg-40">
+        <div class="container position-relative">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-lg-1">
+                </div>
+                <div class="col-lg-9 col-xl-10 position-static">
+                    <div class="menu-area link-inherit d-none d-lg-flex flex-wrap justify-content-between align-items-center text-center bg-white radius-100">
+                        <nav class="main-menu menu-style2">
+                            <ul>
+                                <li class="sub-menu">
+                                    <a href="index.html">Home</a>
+                                </li>
+                                <li class="sub-menu">
+                                    <a href="about.html">About</a>
+                                </li>
+                                <li class="sub-menu">
+                                    <a href="menu.html">Menu</a>
+                                </li>
+                            </ul>
+                        </nav>
+
+                        <div class="header-logo px-4 px-lg-0 mx-lg-15 mx-xl-25">
+                            <a href="index.html"><img src="assets/img/logo.png" alt="Logo"></a>
+                        </div>
+
+                        <nav class="main-menu menu-style2">
+                            <ul>
+                                <li class="sub-menu">
+                                    <a href="reservation.html">Reservation</a>
+                                </li>
+                                <li class="sub-menu">
+                                    <a href="contact.html">Contact Us</a>
+                                </li>
+                                <li class="sub-menu">
+                                    <a href="cart.html">Cart</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <div class="col-lg-1">
+                </div>
+            </div>
+            <!-- menu bar for mobile device -->
+            <div class="mobile-menu-bar py-3 py-lg-0 d-block d-lg-none">
+                <div class="row align-items-center">
+                    <div class="col-6 ">
+                        <a href="index.html"><img src="assets/img/logo.png" alt="Logo Image"></a>
+                    </div>
+                    <div class="col-6 text-right">
+                        <button type="button" class="vs-menu-toggle text-theme border-theme"><i class="far fa-bars"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--==============================
+        hero Area
+    ==============================-->
+    <div class="vs-hero-wrapper mx-xl-40  vs-hero-layout1 pt-lg-90 pt-xl-105">
+        <div class="vs-hero-carousel " data-height="1010px" data-container="1840">
+            <div class="vs-hero-slide ls-slide" data-ls="duration: 10000; transition2d: 5;">
+                <img src="assets/img/hero/hero-img-1-1.jpg" alt="Slide Image" class="ls-bg">
+                <img src="assets/img/hero/hero-img-1-1-2.png" alt="Horo Text Image" class="ls-l food-img" style="left: 0; top: 0; width: 695px; height: 1040px; text-align:initial;" data-ls="showinfo:1; delayin: 200; offsetxin:-200; durationin:1400; easingin:easeOutCubic; fadein:false;  offsetxout:-200; easingout:easeInQuart; fadeout:false; parallax:true; parallaxlevel:3; parallaxaxis: x;">
+                <img src="assets/img/hero/ches-bar-1.png" class="ls-l" alt="Ches Shape" style="top:-100%; left:1753px; text-align:initial; font-weight:400; font-style:normal; text-decoration:none; width:150px;" data-ls="showinfo:1; durationin:0; fadein:false; scalexin:0; scaleyin:0; loop:true; loopoffsety:300sh; loopduration:20000; looprotate:random(-360,360); loopcount:-1; parallax:true; parallaxlevel:6;">
+                <img src="assets/img/hero/ches-bar-2.png" class="ls-l" alt="Ches Shape" style="top:-100%; left:672px; text-align:initial; font-weight:400; font-style:normal; text-decoration:none; width:150px;" data-ls="showinfo:1; durationin:0; delayin:9600; fadein:false; scalexin:0; scaleyin:0; loop:true; loopoffsety:300sh; loopduration:20000; looprotate:random(-360,360); loopcount:-1; parallax:true; parallaxlevel:4;">
+                <img src="assets/img/hero/ches-bar-3.png" class="ls-l" alt="Ches Shape" style="top:-100%; left:130px; text-align:initial; font-weight:400; font-style:normal; text-decoration:none; width:150px;" data-ls="showinfo:1; durationin:0; delayin:12000; fadein:false; scalexin:0; scaleyin:0; loop:true; loopoffsety:300sh; loopduration:20000; looprotate:random(-360,360); loopcount:-1; parallax:true; parallaxlevel:10;">
+                <img src="assets/img/hero/ches-bar-4.png" class="ls-l" alt="Ches Shape" style="top:-100%; left:1231px; text-align:initial; font-weight:400; font-style:normal; text-decoration:none; width:150px;" data-ls="showinfo:1; durationin:0; delayin:7200; fadein:false; scalexin:0; scaleyin:0; loop:true; loopoffsety:300sh; loopduration:20000; looprotate:random(-360,360); loopcount:-1; parallax:true; parallaxlevel:4;">
+                <img src="assets/img/hero/ches-bar-5.png" class="ls-l" alt="Ches Shape" style="top:-100%; left:420px; text-align:initial; font-weight:400; font-style:normal; text-decoration:none; width:150px;" data-ls="showinfo:1; durationin:0; delayin:4800; fadein:false; scalexin:0; scaleyin:0; loop:true; loopoffsety:300sh; loopduration:20000; looprotate:random(-360,360); loopcount:-1; parallax:true; parallaxlevel:6;">
+                <img src="assets/img/hero/ches-bar-1.png" class="ls-l" alt="Ches Shape" style="top:-100%; left:1490px; text-align:initial; font-weight:400; font-style:normal; text-decoration:none; width:150px;" data-ls="showinfo:1; durationin:0; delayin:14400; fadein:false; scalexin:0; scaleyin:0; loop:true; loopoffsety:300sh; loopduration:20000; looprotate:random(-360,360); loopcount:-1; parallax:true; parallaxlevel:12;">
+                <img src="assets/img/hero/ches-bar-2.png" class="ls-l" alt="Ches Shape" style="top:-100%; left:723px; text-align:initial; font-weight:400; font-style:normal; text-decoration:none; width:150px; " data-ls="showinfo:1; durationin:0; delayin:16800; fadein:false; scalexin:0; scaleyin:0; loop:true; loopoffsety:300sh; loopduration:20000; looprotate:random(-360,360); loopcount:-1; parallax:true; parallaxlevel:8;">
+                <img src="assets/img/hero/ches-bar-3.png" class="ls-l" alt="Ches Shape" style="top:-100%; left:-256px; text-align:initial; font-weight:400; font-style:normal; text-decoration:none; width:150px;" data-ls="showinfo:1; durationin:0; delayin:2400; fadein:false; scalexin:0; scaleyin:0; loop:true; loopoffsety:300sh; loopduration:20000; looprotate:random(-360,360); loopcount:-1; parallax:true; parallaxlevel:2;">
+                <img src="assets/img/hero/ches-bar-4.png" class="ls-l" alt="Ches Shape" style="top:-100%; left:387px; text-align:initial; font-weight:400; font-style:normal; text-decoration:none; width: 150px" data-ls="showinfo:1; durationin:0; fadein:false; scalexin:0; scaleyin:0; loop:true; loopoffsety:300sh; loopduration:10000; looprotate:random(-360,360); loopcount:-1; parallax:true; parallaxlevel:4;">
+                <img src="assets/img/hero/ches-bar-5.png" class="ls-l" alt="Ches Shape" style="top:-100%; left:1567px; text-align:initial; font-weight:400; font-style:normal; text-decoration:none; width: 150px" data-ls="showinfo:1; durationin:0; delayin:2500; fadein:false; scalexin:0; scaleyin:0; loop:true; loopoffsety:300sh; loopduration:10000; looprotate:random(-360,360); loopcount:-1; parallax:true; parallaxlevel:4;">
+                <img src="assets/img/hero/ches-bar-1.png" class="ls-l" alt="Ches Shape" style="top:-100%; left:-110px; text-align:initial; font-weight:400; font-style:normal; text-decoration:none; width: 150px" data-ls="showinfo:1; durationin:0; delayin:5000; fadein:false; scalexin:0; scaleyin:0; loop:true; loopoffsety:300sh; loopduration:10000; looprotate:random(-360,360); loopcount:-1; parallax:true; parallaxlevel:12;">
+                <img src="assets/img/hero/ches-bar-2.png" class="ls-l" alt="Ches Shape" style="top:-100%; left:759px; text-align:initial; font-weight:400; font-style:normal; text-decoration:none; width: 150px" data-ls="showinfo:1; durationin:0; delayin:7500; fadein:false; scalexin:0; scaleyin:0; loop:true; loopoffsety:300sh; loopduration:10000; looprotate:random(-360,360); loopcount:-1; parallax:true; parallaxlevel:2;">
+                <img src="assets/img/hero/hero-img-1-1-1.png" alt="Horo Text Image" class="ls-l food-img" style="left: 0; top: 0; width: 1840px;  text-align:initial;" data-ls="showinfo:1; delayin: 300; durationin:1400;  showinfo:1; parallax:true; parallaxlevel:7; parallaxaxis: x; ">
+                <img src="assets/img/hero/hero-img-1-1-3.png" alt="Horo Text Image" class="ls-l text-img-1" style="left: 330px; top: 340px; width: 610px; text-align:initial;" data-ls="showinfo:1; offsetyin: -150; durationin:700; delayin: 1800; easingin:easeOutQuint; rotatexin:-20; scalein:1.8; scaleout:1.8; durationout:500; offsetyout: -150; parallax:true; parallaxlevel:7; parallaxaxis: x;  parallax:true; parallaxlevel:5; parallaylevel:5; parallaxaxis: both; ">
+                <img src="assets/img/hero/hero-img-1-1-4.png" alt="Horo Text Image" class="ls-l text-img-1" style="left: 1500px; top: 450px; width: 210px; text-align:initial;" data-ls="showinfo:1; offsetyin: -150; durationin:700; delayin: 1800; easingin:easeOutQuint; rotatexin:-20; scalein:1.8; scaleout:1.8; durationout:500; offsetyout: -150; loop:true; loopoffsety:-10; loopduration:600; loopeasing:easeOutCubic; loopcount:-1; loopyoyo:true; parallax:true; parallaxlevel:5; parallaylevel:5; parallaxaxis: both; ">
+            </div>
+            <div class="vs-hero-slide ls-slide" data-ls="duration: 10000;  transition2d: 5;">
+                <img src="assets/img/hero/hero-img-1-2.jpg" alt="Hero Image" class="ls-bg">
+                <img src="assets/img/hero/hero-img-1-2-1.png" alt="Hero Text Image" class="ls-l" style="left: 900px; top: 180px;" data-ls="delayin: 200; offsetyin:-200; offsetxin: 100; durationin:1400; easingin:easeOutCubic; fadein:false;  offsetyout:-200; offsetxout: 100; easingout:easeInQuart; parallax:true; parallaxlevel:3; parallaxaxis: x;">
+                <img src="assets/img/hero/hero-img-1-2-2.png" alt="Hero Text Image" class="ls-l" style="left: 1200px; top: 540px;" data-ls="delayin: 200; offsetyin: 200; durationin:1400; easingin:easeOutCubic; fadein:false;  offsetyout:-200; easingout:easeInQuart;  parallax:true; parallaxlevel:3; parallaxaxis: x; loop:true; loopoffsety:-10; loopduration:600; loopeasing:easeOutCubic; loopcount:-1; loopyoyo:true;">
+            </div>
+            <div class="vs-hero-slide ls-slide" data-ls="duration: 10000;  transition2d: 5;">
+                <img src="assets/img/hero/hero-img-1-3.jpg" alt="Hero Image" class="ls-bg">
+                <img src="assets/img/hero/hero-img-1-3-1.png" alt="Hero Text Image" class="ls-l" style="left: 900px; top: 180px; width: 855px;" data-ls="delayin: 200; offsetyin:-200; durationin:1400; easingin:easeOutCubic; fadein:false;  offsetyout:-200; offsetxout: 100; easingout:easeInQuart; parallax:true; parallaxlevel:3; parallaxaxis: x;">
+                <img src="assets/img/hero/hero-img-1-3-2.png" alt="Hero Text Image" class="ls-l" style="left: 1450px; top: 580px; width: 220px;" data-ls="delayin: 200; offsetyin: 200; durationin:1400; easingin:easeOutCubic; fadein:false;  offsetyout:-200; easingout:easeInQuart;  parallax:true; parallaxlevel:3; parallaxaxis: x; loop:true; loopoffsety:-10; loopduration:600; loopeasing:easeOutCubic; loopcount:-1; loopyoyo:true;">
+            </div>
+        </div>
+    </div>
+    <!--==============================
+        Service Area
+    ==============================-->
+    <section class="vs-service-wrapper vs-service-layout1 link-inherit position-relative pt-lg-150 pt-60 pb-lg-120 pb-30" id="service">
+        <span class="shape1 position-absolute ani-moving d-none d-lg-inline-block"><i class="flaticon-hamburger icon-6x" data-opacity="1"></i></span>
+        <span class="shape2 position-absolute ani-moving d-none d-xl-inline-block"><i class="flaticon-pizza icon-6x" data-opacity="1"></i></span>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-9 col-xl-7">
+                    <div class="section-title text-center ">
+                        <span class="sec-subtitle text-theme h3">What we do</span>
+                        <h2 class="sec-title1">Our Services </h2>
+                        <p class="sec-text text-md"></p>
+                        <div class="sec-line">
+                            <img src="assets/img/shape/sec-title-1.png" alt="Section Shape Icon">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row vs-carousel arrow-has-margin" data-arrows="true" data-slidetoshow="3" data-mdslidetoshow="2" data-smslidetoshow="1" data-xsslidetoshow="1">
+                <div class="col-xl-4">
+                    <div class="vs-service vs-box1 ">
+                        <div class="service-img image-scale-hover">
+                            <a href="about.html"><img src="assets/img/service/service-img-1-1.jpg" class="w-100" alt="Service Image"></a>
+                        </div>
+                        <div class="service-content">
+                            <h3 class="service-title mb-10"><a href="about.html">Party Services</a></h3>
+                            <p class="service-text"></p>
+                            <a href="about.html" class="icon-btn vs-box-icon text-title"><i class="far fa-angle-right"></i></a>
+                            <a href="about.html" class="vs-btn learn-more mask-style1"><i class="far fa-angle-right"></i>Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4">
+                    <div class="vs-service vs-box1 ">
+                        <div class="service-img image-scale-hover">
+                            <a href="about.html"><img src="assets/img/service/service-img-1-2.jpg" class="w-100" alt="Service Image"></a>
+                        </div>
+                        <div class="service-content">
+                            <h3 class="service-title mb-10"><a href="about.html">Wedding Services</a></h3>
+                            <p class="service-text"></p>
+                            <a href="about.html" class="icon-btn vs-box-icon text-title"><i class="far fa-angle-right"></i></a>
+                            <a href="about.html" class="vs-btn learn-more mask-style1"><i class="far fa-angle-right"></i>Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4">
+                    <div class="vs-service vs-box1 ">
+                        <div class="service-img image-scale-hover">
+                            <a href="about.html"><img src="assets/img/service/service-img-1-3.jpg" class="w-100" alt="Service Image"></a>
+                        </div>
+                        <div class="service-content">
+                            <h3 class="service-title mb-10"><a href="about.html">Buffet Services</a></h3>
+                            <p class="service-text"></p>
+                            <a href="about.html" class="icon-btn vs-box-icon text-title"><i class="far fa-angle-right"></i></a>
+                            <a href="about.html" class="vs-btn learn-more mask-style1"><i class="far fa-angle-right"></i>Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4">
+                    <div class="vs-service vs-box1 ">
+                        <div class="service-img image-scale-hover">
+                            <a href="about.html"><img src="assets/img/service/service-img-1-4.jpg" class="w-100" alt="Service Image"></a>
+                        </div>
+                        <div class="service-content">
+                            <h3 class="service-title mb-10"><a href="about.html">Home Delivery</a></h3>
+                            <p class="service-text"></p>
+                            <a href="about.html" class="icon-btn vs-box-icon text-title"><i class="far fa-angle-right"></i></a>
+                            <a href="about.html" class="vs-btn learn-more mask-style1"><i class="far fa-angle-right"></i>Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--==============================
+        Counter Area 
+    ==============================-->
+    <section class="vs-counter-area counter-layout1 background-image bg-fixed pt-lg-140 pt-60 pb-lg-120 pb-30" data-vs-img="assets/img/bg/bg-1.jpg" data-overlay="title" data-opacity="8">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-9 col-xl-7">
+                    <div class="section-title text-center ">
+                        <h2 class="sec-title1 text-white">Our Achievements</h2>
+                        <p class="sec-text text-md text-white">Over the years, our dedication to excellence has led to a series of remarkable achievements</p>
+                        <div class="sec-line">
+                            <img src="assets/img/shape/sec-title-2.png" alt="Section Shape Icon">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-between">
+                <div class="col-sm-6 col-md-auto">
+                    <div class="mb-30 text-center">
+                        <h2 class="h1 text-white mb-2 pb-1"><span class="counter">25</span>+</h2>
+                        <p class="text-white-light text-md mb-3 pb-1">Years Of Experience</p>
+                        <span class="text-theme"><i class="flaticon-mission-accomplished icon-3x"></i></span>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-auto">
+                    <div class="mb-30 text-center">
+                        <h2 class="h1 text-white mb-2 pb-1"><span class="counter">150</span>+</h2>
+                        <p class="text-white-light text-md mb-3 pb-1">Experienced Workers</p>
+                        <span class="text-theme"><i class="flaticon-chef-1 icon-3x"></i></span>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-auto">
+                    <div class="mb-30 text-center">
+                        <h2 class="h1 text-white mb-2 pb-1"><span class="counter">2000</span>+</h2>
+                        <p class="text-white-light text-md mb-3 pb-1">Happy Customers</p>
+                        <span class="text-theme"><i class="flaticon-happy icon-3x"></i></span>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-auto">
+                    <div class="mb-30 text-center">
+                        <h2 class="h1 text-white mb-2 pb-1"><span class="counter">5</span>k+</h2>
+                        <p class="text-white-light text-md mb-3 pb-1">Branches</p>
+                        <span class="text-theme"><i class="flaticon-fruit icon-3x"></i></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--==============================
+        Food Gallery
+    ==============================-->
+    <section class="vs-gallery-wrapper gallery-box-layout1 link-inherit pt-lg-150 pt-60 pb-lg-120 pb-30" id="gallery">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-11 col-lg-9 col-xl-7">
+                    <div class="section-title text-center ">
+                        <span class="sec-subtitle text-theme h3">What we've done</span>
+                        <h2 class="sec-title1">Our Food Gallery</h2>
+                        <p class="sec-text text-md">Explore our food gallery to take a visual journey through our menu, where each dish is a work of art made from the finest ingredients.<a href="#" class="text-theme"></a></p>
+                        <div class="sec-line">
+                            <img src="assets/img/shape/sec-title-1.png" alt="Section Shape Icon">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row justify-content-center">
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div class="vs-gallery image-scale-hover">
+                        <div class="gallery-img">
+                            <img src="assets/img/gallery/gallery-img-1-1.jpg" class="w-100" alt="Gallery Image">
+                        </div>
+                        <div class="gallery-content px-40 py-40" data-overlay="black" data-opacity="7">
+                            <a href="assets/img/gallery/gallery-img-1-1.jpg" class="icon-btn middle popup-image"><i class="fal fa-expand"></i></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div class="vs-gallery image-scale-hover">
+                        <div class="gallery-img">
+                            <img src="assets/img/gallery/gallery-img-1-2.jpg" class="w-100" alt="Gallery Image">
+                        </div>
+                        <div class="gallery-content px-40 py-40" data-overlay="black" data-opacity="7">
+                            <a href="assets/img/gallery/gallery-img-1-2.jpg" class="icon-btn middle popup-image"><i class="fal fa-expand"></i></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div class="vs-gallery image-scale-hover">
+                        <div class="gallery-img">
+                            <img src="assets/img/gallery/gallery-img-1-3.jpg" class="w-100" alt="Gallery Image">
+                        </div>
+                        <div class="gallery-content px-40 py-40" data-overlay="black" data-opacity="7">
+                            <a href="assets/img/gallery/gallery-img-1-3.jpg" class="icon-btn middle popup-image"><i class="fal fa-expand"></i></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div class="vs-gallery image-scale-hover">
+                        <div class="gallery-img">
+                            <img src="assets/img/gallery/gallery-img-1-4.jpg" class="w-100" alt="Gallery Image">
+                        </div>
+                        <div class="gallery-content px-40 py-40" data-overlay="black" data-opacity="7">
+                            <a href="assets/img/gallery/gallery-img-1-4.jpg" class="icon-btn middle popup-image"><i class="fal fa-expand"></i></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div class="vs-gallery image-scale-hover">
+                        <div class="gallery-img">
+                            <img src="assets/img/gallery/gallery-img-1-5.jpg" class="w-100" alt="Gallery Image">
+                        </div>
+                        <div class="gallery-content px-40 py-40" data-overlay="black" data-opacity="7">
+                            <a href="assets/img/gallery/gallery-img-1-5.jpg" class="icon-btn middle popup-image"><i class="fal fa-expand"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div class="vs-gallery image-scale-hover">
+                        <div class="gallery-img">
+                            <img src="assets/img/gallery/gallery-img-1-6.jpg" class="w-100" alt="Gallery Image">
+                        </div>
+                        <div class="gallery-content px-40 py-40" data-overlay="black" data-opacity="7">
+                            <a href="assets/img/gallery/gallery-img-1-6.jpg" class="icon-btn middle popup-image"><i class="fal fa-expand"></i></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div class="vs-gallery image-scale-hover">
+                        <div class="gallery-img">
+                            <img src="assets/img/gallery/gallery-img-1-7.jpg" class="w-100" alt="Gallery Image">
+                        </div>
+                        <div class="gallery-content px-40 py-40" data-overlay="black" data-opacity="7">
+                            <a href="assets/img/gallery/gallery-img-1-7.jpg" class="icon-btn middle popup-image"><i class="fal fa-expand"></i></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div class="vs-gallery image-scale-hover">
+                        <div class="gallery-img">
+                            <img src="assets/img/gallery/gallery-img-1-8.jpg" class="w-100" alt="Gallery Image">
+                        </div>
+                        <div class="gallery-content px-40 py-40" data-overlay="black" data-opacity="7">
+                            <a href="assets/img/gallery/gallery-img-1-8.jpg" class="icon-btn middle popup-image"><i class="fal fa-expand"></i></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--==============================
+        Testimonial Area
+    ==============================-->
+    <section class="vs-testimonial-wrapper position-relative vs-testimonial-layout1 background-image bg-top pt-lg-150 pt-60 pb-lg-90 pb-50" data-vs-img="assets/img/testimonial/testimonial-bg-1-1.jpg">
+        <img src="assets/img/testimonial/bg-shape-1.png" alt="Bg Shape" class="shape1 position-absolute ani-moving-y d-none d-xl-inline-block">
+        <div class="container pb-lg-140">
+            <div class="row justify-content-center pb-lg-150">
+                <div class="col-md-11 col-lg-9 col-xl-7">
+                    <div class="section-title text-center ">
+                        <span class="sec-subtitle text-theme h3"></span>
+                        <h2 class="sec-title1">Testimonials</h2>
+                        <p class="sec-text text-md">Here is what past customers have said about our restaurant.</p>
+                        <div class="sec-line">
+                            <img src="assets/img/shape/sec-title-1.png" alt="Section Shape Icon">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="inner-wrapper vs-testimonial-area bg-white radius-circle">
+                <div class="d-flex align-items-center justify-content-center h-100">
+                    <div class="text-center vs-carousel w-100 mb-15" data-slidetoshow="1" data-fade="ture" data-dots="true" data-xldots="true" data-mldots="true" data-lgdots="true" data-mddots="true" data-smdots="true" data-xsdots="true">
+                        <div class="vs-testimonial">
+                            <div class="testimonial-author-avater">
+                                <img src="assets/img/testimonial/testimonial-author-1-1.png" alt="testimonial Author">
+                            </div>
+                            <div class="testimonial-content pb-40 pb-lg-50">
+                                <h3 class="testimonial-author-name mb-0">William Hatson</h3>
+                                <p class="testimonial-text mb-0"> "The grilled food here is a taste sensation! The smoky, charred flavors are absolutely divine. From juicy steaks to perfectly grilled veggies, every dish is a winner. This place sets the bar high for grilled cuisine!"</p>
+                            </div>
+                        </div>
+                        <div class="vs-testimonial">
+                            <div class="testimonial-author-avater">
+                                <img src="assets/img/testimonial/testimonial-author-1-2.png" alt="testimonial Author">
+                            </div>
+                            <div class="testimonial-content pb-40 pb-lg-50">
+                                <h3 class="testimonial-author-name mb-0">Gary Marian</h3>
+                                <p class="testimonial-text mb-0"> "If you're looking for a place to satisfy your grilled food cravings, look no further. This restaurant consistently delivers mouthwatering dishes that leave you craving for more. The service is top-notch, making it a 5-star experience all around!"</p>
+                            </div>
+                        </div>
+                        <div class="vs-testimonial">
+                            <div class="testimonial-author-avater">
+                                <img src="assets/img/testimonial/testimonial-author-1-3.png" alt="testimonial Author">
+                            </div>
+                            <div class="testimonial-content pb-40 pb-lg-50">
+                                <h3 class="testimonial-author-name mb-0">John Roise</h3>
+                                <p class="testimonial-text mb-0"> "I had a great meal at this restaurant with some delicious grilled options. While the food was tasty, I felt that it was a bit pricey for the portion sizes. Nonetheless, the flavors were on point, and I enjoyed my dining experience."</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--==============================
+        Subscribe Form
+    ==============================-->
+    <section class="vs-subscribe-wrapper vs-subscribe-layout1 background-image py-lg-150 py-60" data-vs-img="assets/img/subscribe/subscribe-bg-1-1.jpg">
+        <div class="container">
+            <div class="row justify-content-center justify-content-xl-start">
+                <div class="col-lg-9 col-xl-7">
+                    <div class="vs-subscribe text-center pb-lg-30">
+                        <div class="background-image d-inline-block bg-fluid pt-60 pt-lg-80 px-100 px-lg-120 pb-30" data-vs-img="assets/img/shape/subscribe-bg-icon-1-1.png">
+                            <span class="text-theme"><i class="fal fa-envelope-open fa-3x"></i></span>
+                        </div>
+                        <h2 class="h1 mb-10">Subscribe to our newsletter</h2>
+                    </div>
+                    <form action="#" class="vs-subscribe-form subscribe-form-style1 d-sm-flex">
+                        <span class="subscribe-form-icon"><i class="fal fa-envelope text-title"></i></span>
+                        <input type="email" class="form-control" placeholder="Your Email Address">
+                        <button type="submit" class="vs-btn mask-style1">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--==============================
+			Footer Area
+	==============================-->
+    <footer class="footer-wrapper footer-layout1 dark-footer bg-black">
+        <div class="footer-widget-wrapper footer-widget-layout1 pt-40 pt-lg-100 pb-10 pb-lg-70  background-image bg-auto bg-bottom" data-vs-img="assets/img/footer/fire.jpg">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-4 col-xl-4">
+                        <div class="widget pt-0">
+                            <div class="vs-widget-about">
+                                <div class="widget-about-logo mb-20 mb-lg-25">
+                                    <a href="index.html">
+                                        <img src="assets/img/logo-white.png" alt="logo">
+                                    </a>
+                                </div>
+                                <p class="widget-about-text mb-20">We are dedicated to delivering mouthwatering cuisine, exceptional service, and an electric atmosphere that transforms every day into game day.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-xl-4">
+                        <div class="widget widget_nav_menu">
+                            <h3 class="widget_title">Developed By</h3>
+                            <div class="menu-all-pages-container">
+                                <div class="row">
+                                    <div class="col-sm-6 col-lg-12">
+                                        <ul class="menu">
+                                            <li><a href="#">Centennial High School</a></li>
+                                            <li><a href="#">Frisco, Texas</a></li>
+                                            <li><a href="#">2023 - 2024</a></li>
+                                            <li><a href="#">By: Pranav, Om, Devank, and Arnav</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="widget widget_nav_menu">
+                        <h3 class="widget_title">Contact Information</h3>
+                        <div class="menu-all-pages-container">
+                            <div class="row">
+                                <div class="col-lg-5 col-xl-12">
+                                    <ul class="menu">
+                                        <li><a href="#">Pranav Adya - 972-370-7132</a></li>
+                                        <li><a href="#">Arnav Adya - 972-370-7131</a></li>
+                                        <li><a href="#">Om Rao - 469-476-7048</a></li>
+                                        <li><a href="#">Devank Prasad - 469-409-9783</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright bg-dark text-center  py-3 link-inherit">
+            <div class="container">
+                <p class="text-white mb-0">Copyright <i class="fal fa-copyright"></i> 2023 <a href="index.html">PODA Game Day Grill</a> - All rights reserved by <a href="#">PODA</a>.</p>
+            </div>
+        </div>
+    </footer>
+
+
+    <!--==============================
+    Sidemenu
+============================== -->
+    <div class="sidemenu-wrapper d-none d-lg-block  ">
+        <div class="sidemenu-content">
+            <button class="closeButton border-theme text-theme bg-theme-hover sideMenuCls"><i class="far fa-times"></i></button>
+            <div class="widget woocommerce widget_shopping_cart">
+                <h3 class="widget_title">Shopping cart</h3>
+                <div class="widget_shopping_cart_content">
+                    <ul class="woocommerce-mini-cart cart_list product_list_widget ">
+                        <li class="woocommerce-mini-cart-item mini_cart_item">
+                            <a href="#" class="remove remove_from_cart_button"><i class="far fa-times"></i></a>
+                            <a href="#"><img src="assets/img/cart/cart-img-1-1.jpg" alt="Cart Image">Hot Burger</a>
+                            <span class="quantity">1 ×
+                                <span class="woocommerce-Price-amount amount">
+                                    <span class="woocommerce-Price-currencySymbol">$</span>40.00</span>
+                            </span>
+                        </li>
+                        <li class="woocommerce-mini-cart-item mini_cart_item">
+                            <a href="#" class="remove remove_from_cart_button"><i class="far fa-times"></i></a>
+                            <a href="#"><img src="assets/img/cart/cart-img-1-2.jpg" alt="Cart Image">Vegetable</a>
+                            <span class="quantity">1 ×
+                                <span class="woocommerce-Price-amount amount">
+                                    <span class="woocommerce-Price-currencySymbol">$</span>99.00</span>
+                            </span>
+                        </li>
+
+                        <li class="woocommerce-mini-cart-item mini_cart_item">
+                            <a href="#" class="remove remove_from_cart_button"><i class="far fa-times"></i></a>
+                            <a href="#"><img src="assets/img/cart/cart-img-1-3.jpg" alt="Cart Image">Pop Pizza</a>
+                            <span class="quantity">1 ×
+                                <span class="woocommerce-Price-amount amount">
+                                    <span class="woocommerce-Price-currencySymbol">$</span>56.00</span>
+                            </span>
+                        </li>
+                        <li class="woocommerce-mini-cart-item mini_cart_item">
+                            <a href="#" class="remove remove_from_cart_button"><i class="far fa-times"></i></a>
+                            <a href="#"><img src="assets/img/cart/cart-img-1-4.jpg" alt="Cart Image">Onion & Tomato</a>
+                            <span class="quantity">1 ×
+                                <span class="woocommerce-Price-amount amount">
+                                    <span class="woocommerce-Price-currencySymbol">$</span>23.00</span>
+                            </span>
+                        </li>
+                        <li class="woocommerce-mini-cart-item mini_cart_item">
+                            <a href="#" class="remove remove_from_cart_button"><i class="far fa-times"></i></a>
+                            <a href="#"><img src="assets/img/cart/cart-img-1-5.jpg" alt="Cart Image">Cool Drinks</a>
+                            <span class="quantity">1 ×
+                                <span class="woocommerce-Price-amount amount">
+                                    <span class="woocommerce-Price-currencySymbol">$</span>100.00</span>
+                            </span>
+                        </li>
+                    </ul>
+                    <p class="woocommerce-mini-cart__total total">
+                        <strong>Subtotal:</strong>
+                        <span class="woocommerce-Price-amount amount">
+                            <span class="woocommerce-Price-currencySymbol">$</span>318.00</span>
+                    </p>
+                    <p class="woocommerce-mini-cart__buttons buttons">
+                        <a href="cart.html" class="vs-btn style1 wc-forward">View cart</a>
+                        <a href="checkout.html" class="vs-btn style1 checkout wc-forward">Checkout</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--********************************
+			Code End  Here 
+	******************************** -->
+
+    <!-- Scroll Top Top Button -->
+    <a href="#" class="scrollToTop icon-btn bg-theme border-before-theme"><i class="far fa-angle-up"></i></a>
+
+
+
+
+    <!--==============================
+        All Js File
+    ============================== -->
+    <!-- Jquery -->
+    <script src="assets/js/vendor/jquery.min.js"></script>
+    <script src="assets/js/vendor/jquery-migrate-3.0.0.min.js"></script>
+    <!-- Slick Slider -->
+    <!-- <script src="assets/js/app.min.js"></script> -->
+    <script src="assets/js/slick.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- Layer Slider -->
+    <script src="assets/js/greensock.min.js"></script>
+    <script src="assets/js/layerslider.kreaturamedia.jquery.js"></script>
+    <script src="assets/js/layerslider.transitions.js"></script>
+    <!-- Counter js -->
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <script src="assets/js/waypoints.min.js"></script>
+    <!-- Date Picker -->
+    <script src="assets/js/jquery.datetimepicker.min.js"></script>
+    <!-- Magnific Popup -->
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <!-- Nice Select -->
+    <script src="assets/js/jquery.nice-select.min.js"></script>
+    <!-- Custom Carousel -->
+    <script src="assets/js/vscustom-carousel.min.js"></script>
+    <!-- Mobile Menu -->
+    <script src="assets/js/vsmenu.min.js"></script>
+    <!-- Form Js -->
+    <script src="assets/js/ajax-mail.js"></script>
+    <!-- Google Map js -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDC3Ip9iVC0nIxC6V14CKLQ1HZNF_65qEQ "></script>
+    <!-- Main Js File -->
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
